@@ -1,4 +1,5 @@
 
+import Nav from "@components/Nav"
 import "@styles/globals.css"
 export const metadata = {
     title: "AI Prompts",
@@ -15,6 +16,7 @@ const RootLayout = ({children}) => {
         </div>
 
         <main className="app">
+        <Nav />
             {children}
         </main>
     </body>

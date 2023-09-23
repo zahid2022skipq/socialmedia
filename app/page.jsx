@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
         <span className="orange_gradient text-center">AI Powered Prompt</span>
         </h1>
         <p className="desc text-center">This is an Open Source Prompt Sharing plateform. To share, discover and interact with other findings. </p>
+        <Feed />
     </section>
   )
 }
